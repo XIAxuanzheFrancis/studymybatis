@@ -53,7 +53,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "vcs.Git"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -61,6 +61,97 @@
     ]
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.UserDaoTest.Test5">
+    <configuration name="UserDaoTest.Test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuanzhe.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuanzhe.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xuanzhe.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="Test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.Test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuanzhe.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuanzhe.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xuanzhe.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="Test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuanzhe.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuanzhe.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xuanzhe.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuanzhe.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuanzhe.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xuanzhe.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuanzhe.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuanzhe.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xuanzhe.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserDaoTest.Test5" />
+        <item itemvalue="JUnit.UserDaoTest.Test4" />
+        <item itemvalue="JUnit.UserDaoTest.test3" />
+        <item itemvalue="JUnit.UserDaoTest.test2" />
+        <item itemvalue="JUnit.UserDaoTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +160,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697141976061</updated>
-      <workItem from="1697141977532" duration="4634000" />
+      <workItem from="1697141977532" duration="5342000" />
+      <workItem from="1697190961630" duration="3616000" />
     </task>
     <servers />
   </component>

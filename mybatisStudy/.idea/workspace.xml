@@ -46,6 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/30586/Desktop/mybatisStudy/mybatisStudy/mybatis-02/src/main/java/com/xuanzhe",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,6 +62,15 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\30586\Desktop\mybatisStudy\mybatisStudy\mybatis-02\src\main\java\com\xuanzhe" />
+      <recent name="C:\Users\30586\Desktop\mybatisStudy\mybatisStudy\mybatis-02\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\30586\Desktop\mybatisStudy\mybatisStudy\mybatis-02\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.UserDaoTest.Test6">
     <configuration name="UserDaoTest.Test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-01" />
@@ -161,7 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697141976061</updated>
       <workItem from="1697141977532" duration="5342000" />
-      <workItem from="1697190961630" duration="5345000" />
+      <workItem from="1697190961630" duration="7468000" />
     </task>
     <servers />
   </component>

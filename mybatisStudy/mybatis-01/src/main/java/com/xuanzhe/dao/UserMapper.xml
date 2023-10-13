@@ -23,4 +23,9 @@
   <delete id="deleteUser" parameterType="int">
     delete from mybatis.user where id = #{id};
   </delete>
+
+  <select id="getUserLike" parameterType="String" resultType="com.xuanzhe.pojo.User">
+    select * from mybatis.user where name like #{value};
+  </select>
+
 </mapper>

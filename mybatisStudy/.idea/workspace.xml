@@ -61,7 +61,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UserDaoTest.Test5">
+  <component name="RunManager" selected="JUnit.UserDaoTest.Test6">
     <configuration name="UserDaoTest.Test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-01" />
       <extension name="coverage">
@@ -94,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDaoTest.Test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-01" />
       <extension name="coverage">
         <pattern>
@@ -104,7 +104,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.xuanzhe.dao" />
       <option name="MAIN_CLASS_NAME" value="com.xuanzhe.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="Test6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest.Test6" />
         <item itemvalue="JUnit.UserDaoTest.Test5" />
         <item itemvalue="JUnit.UserDaoTest.Test4" />
         <item itemvalue="JUnit.UserDaoTest.test3" />
         <item itemvalue="JUnit.UserDaoTest.test2" />
-        <item itemvalue="JUnit.UserDaoTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697141976061</updated>
       <workItem from="1697141977532" duration="5342000" />
-      <workItem from="1697190961630" duration="3616000" />
+      <workItem from="1697190961630" duration="5345000" />
     </task>
     <servers />
   </component>

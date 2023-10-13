@@ -7,19 +7,20 @@ import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 
 public class UserDaoTest {
+
   @Test
-  public void test(){
+  public void test() {
     SqlSession sqlSesstion = MybatisUtils.getSqlSesstion();
     UserMapper mapper = sqlSesstion.getMapper(UserMapper.class);
     List<User> userList = mapper.getUserList();
-    for(User user:userList){
+    for (User user : userList) {
       System.out.println(user);
     }
     sqlSesstion.close();
   }
 
   @Test
-  public void test2(){
+  public void test2() {
     SqlSession sqlSesstion = MybatisUtils.getSqlSesstion();
     UserMapper mapper = sqlSesstion.getMapper(UserMapper.class);
     User user = mapper.getUserById(1);
@@ -28,28 +29,41 @@ public class UserDaoTest {
   }
 
   @Test
-  public void test3(){
+  public void test3() {
     SqlSession sqlSesstion = MybatisUtils.getSqlSesstion();
     UserMapper mapper = sqlSesstion.getMapper(UserMapper.class);
     mapper.addUser(new User(4, "juju", "12345"));
     sqlSesstion.commit();
     sqlSesstion.close();
   }
+
   @Test
-  public void Test4(){
+  public void Test4() {
     SqlSession sqlSesstion = MybatisUtils.getSqlSesstion();
     UserMapper mapper = sqlSesstion.getMapper(UserMapper.class);
-    mapper.updateUser(new User(1,"XIAXUANZHE","654321"));
+    mapper.updateUser(new User(1, "XIAXUANZHE", "654321"));
     sqlSesstion.commit();
     sqlSesstion.close();
   }
 
   @Test
-  public void Test5(){
+  public void Test5() {
     SqlSession sqlSesstion = MybatisUtils.getSqlSesstion();
     UserMapper mapper = sqlSesstion.getMapper(UserMapper.class);
     mapper.deleteUser(5);
     sqlSesstion.commit();
     sqlSesstion.close();
   }
+
+  @Test
+  public void Test6() {
+    SqlSession sqlSesstion = MybatisUtils.getSqlSesstion();
+    UserMapper mapper = sqlSesstion.getMapper(UserMapper.class);
+    List<User> userList = mapper.getUserLike("%a%");
+    for (User user : userList) {
+      System.out.println(user.toString());
+    }
+    sqlSesstion.close();
+  }
 }
+
